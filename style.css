@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(90deg, rgba(217,248,196,1) 0%, rgba(249,249,197,1) 100%);
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 24px;
+    color: #5c5c5c;
+    line-height: 1.2;
+    
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .speedtest {
+    width: 100%;
+    max-width: 650px;
+    margin: 50px;
+    padding: 30px 40px;
+    background-color: #fff;
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .speed__main {
+    width: 80%;
+  }
+  
+  .speed__info {
+    width: 17%;
+    font-size: 20px;
+    color: #a5a5a5;
+  }
+  
+  .speed__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .speed__speed, .speed__accuracy, .speed__retry {
+    display: flex;
+  }
+  
+  .fa {
+    margin-right: 10px;
+    margin-top: 2px;
+  }
+  
+  .speed__retry {
+    cursor: pointer;
+  }
+  
+  .fa-repeat {
+    transition: .5s
+  }
+  
+  /* .speed__retry:hover .fa-repeat {
+    transform: rotate(360deg)
+  } */
+  
+  .speed__indicator {
+    margin-bottom: 10px;
+  }
+  
+  .letter-active {
+    background-color: #CFE8A9;
+    padding: 1px 0;
+    border-radius: 5px;
+  }
+
+  .letter-prev {
+    color: #c7dfa4;
+  }
