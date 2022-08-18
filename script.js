@@ -80,6 +80,7 @@ function start(e) {
             keyupValue++
             if (keyupValue == 1) {
                 startTime = Date.now();
+                speedValue.innerHTML = '-';
             }
             letter.classList.remove('letter-active');
             letter.classList.add('letter-prev');
